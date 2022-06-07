@@ -1,0 +1,2 @@
+This program collects availability data from Zara.com. When you turn it on, the script asks you to enter a link to the product. In the next step it asks for the size of the product. The size should be entered as the serial number of the corresponding size on the product page (for example, for size S its serial number is 1, for size M its serial number is 2, and so on).
+If the specified size is out of stock, the script will request data from the site every 30 minutes. If a size is in stock, the script will send a message to Telegram
